@@ -53,6 +53,10 @@
   margin-bottom: 12px;
 }
 
+.cart-item-container.isRemoved{
+  display: none;
+}
+
 .payment-summary {
   padding-bottom: 5px;
 }
