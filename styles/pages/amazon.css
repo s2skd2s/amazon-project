@@ -78,6 +78,9 @@
   flex-direction: column;
 }
 
+
+
+
 .product-image-container {
   display: flex;
   justify-content: center;
@@ -142,7 +145,16 @@
      be invisible. Use JavaScript to change the
      opacity and make it visible. */
   opacity: 0;
+  transition: opacity 2s;
 }
+
+.isAdded.added-to-cart{
+  opacity: 1;
+  transition: opacity 0s;
+}
+
+/* Apply fade out animation when removing isAdded class */
+
 
 .added-to-cart img {
   height: 20px;
